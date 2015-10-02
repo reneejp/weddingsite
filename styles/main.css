@@ -1,26 +1,28 @@
 .carousel {
 	background-color: #7D7D7D;
-	max-height: 30%;
-	width: 100%;
-	position: relative;
+	height: 30%;
+	width: 100%
+	display: inline-block;
 }
 
 .carousel-slick {
 	width: 100%;
 	height: auto;
-	position: relative;
 }
 
 .carousel-image {
-	max-height: 100%;
-	float: right;
+
+
 }
 
 .header {
 	background-color: #003399;
 	height: 10%;
 	width: 100%;
-}
+	font-family: Novito_Nova;
+    src: url(styles/NovitoNova/NovitoNova-Regular.otf);
+    text-align: center
+}	
 
 .stream {
 	background-color: #D8D8D8;
