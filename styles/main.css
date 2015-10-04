@@ -30,3 +30,8 @@
 	width: 100%;
 }
 
+.grid-item { width: 200px; }
+.grid-item--width2 { width: 400px; }
+.grid-item img {
+	width: 100%;
+}
