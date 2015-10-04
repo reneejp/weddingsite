@@ -15,6 +15,7 @@
 	initSlider();
 
 	var TAG = 'sunrise';
+	var TIMEOUT = 10000;
 
 	var tumblrList = {};
 
@@ -54,7 +55,7 @@
 
 	setInterval(function() {
 		$.when( instagramReq( MAX_ID ), tumblrReq() ).done( onPhotosBack );
-	}, 10000);
+	}, TIMEOUT);
 
 	function onPhotosBack( iResp, tResp ) {
 		// console.log( iResp, tResp );
