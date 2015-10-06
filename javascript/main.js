@@ -1,16 +1,27 @@
 (function() {
 
 	function initSlider() {
-		// slick carousel loader
-		$('.carousel-slick').slick({
-			arrows: true,
-			infinite: true,
-			speed: 500,
-			fade: true,
-			cssEase: 'linear',
-			autoplay: true,
-			adaptiveHeight: true,
+		// // slick carousel loader
+		// $('.carousel-slick').slick({
+		// 	arrows: true,
+		// 	infinite: true,
+		// 	speed: 500,
+		// 	fade: true,
+		// 	cssEase: 'linear',
+		// 	autoplay: true,
+		// 	adaptiveHeight: true,
+		// 	// centerMode: true,
+		// 	// centerPadding: '20%',
+		// });
+		$('.fade').slick({
+  			dots: true,
+  			infinite: true,
+  			speed: 500,
+  			fade: true,
+  			cssEase: 'linear',
+  			adaptiveHeight: true,
 		});
+		
 	}
 
 	initSlider();
