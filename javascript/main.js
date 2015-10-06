@@ -8,13 +8,14 @@
 			speed: 500,
 			fade: true,
 			cssEase: 'linear',
-			autoplay: false
+			autoplay: true,
+			adaptiveHeight: true,
 		});
 	}
 
 	initSlider();
 
-	var TAG = 'sunrise';
+	var TAG = 'johnandrenee2015';
 	var TIMEOUT = 10000;
 
 	var tumblrList = {};
@@ -118,7 +119,7 @@
 				var $img = $('<div class="grid-item"><img src="'+photo+'"></div>');
 				$('.grid').prepend( $img ).masonry( 'prepended',  $img );
 			}	
-			img.src = photo;
+			img.src = photo; 
 			
 		});
 	}	
