@@ -20,6 +20,7 @@
   			fade: true,
   			cssEase: 'linear',
   			adaptiveHeight: true,
+  			autoplay: true,
 		});
 		
 	}
