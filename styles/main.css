@@ -12,16 +12,18 @@ body {
 .carousel {
 	background-color: #7D7D7D;
 	height: 30%;
-	width: 100%
+	width: 100%;
 	display: inline-block;
 	box-sizing: border-box;	
+	overflow-x: hidden;
 }
 
 .carousel-slick {
 	width: 100%;
 	max-height: 100%;
-	margin-left: 1%;
-	margin-right: 1%;
+	margin-left: 3%;
+	margin-right: 3%;
+	display: inline-block;
 }
 
 .carousel-image {
@@ -48,7 +50,6 @@ body {
     font-family: 'Riesling', Fallback, sans-serif;
     color: #D8D8D8;
     font-size: 32px;
-
 }	
 
 
